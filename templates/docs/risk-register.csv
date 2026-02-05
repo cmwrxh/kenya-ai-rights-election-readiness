@@ -1,0 +1,9 @@
+risk_id,risk_name,description,likelihood,impact,risk_score,controls,owner,status,evidence_link,last_reviewed
+R001,Bias and unfair outcomes,Model produces unequal outcomes across groups,,,,"Bias testing, dataset review, fairness metrics",,Open,,
+R002,Privacy leakage,Model outputs expose personal or sensitive data,,,,"Output filtering, PII detection, red-teaming",,Open,,
+R003,Misinformation or manipulation,AI generates misleading or election-sensitive content,,,,"Content moderation rules, human review escalation",,Open,,
+R004,Security compromise,Unauthorized access or model/API abuse,,,,"Authentication, rate limiting, logging and monitoring",,Open,,
+R005,Lack of explainability,Users cannot understand or contest AI decisions,,,,"Model documentation, explanation interface, human review",,Open,,
+R006,Over-reliance on AI,Staff rely on AI outputs without verification,,,,"Human-in-the-loop policy, training, verification checklist",,Open,,
+R007,Vendor risk,Third-party AI providers mishandle data or fail compliance,,,,"Vendor due diligence checklist, contractual safeguards",,Open,,
+R008,Data quality failure,Poor or biased datasets degrade model performance,,,,"Data validation, schema enforcement, dataset versioning",,Open,,
